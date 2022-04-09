@@ -122,6 +122,10 @@ input[type=checkbox]:checked ~ #menu{
 /* margin: 0 auto; /* Center the DIV horizontally */
 
 /*Content*/
+/*.content {
+  max-width: 500px;
+  margin: auto;
+}*/
 
 .group:before,
 .group:after {
@@ -154,10 +158,49 @@ aside {
 }
 
 
- body{        
-        padding-top: 60px;
+
+body {
+    margin:50px 0; 
+    padding:1000;
+    text-align:center;
+}
+
+#Content {
+    width:500px;
+    margin:0 auto;
+    text-align:left;
+    padding:15px;
+    border:1px dashed #333;
+    background-color:#eee;
+}
+/*
+body {
+max-width: max-content;
+margin: auto;
+}
+*/
+ /*body{        
+        padding-top: 1000px;
         padding-bottom: 40px;
-    }
+    }*/
+/*body {
+max-width: max-content;
+margin: auto;
+}*/
+.container_contact {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+}
+
+p {
+  /* Center horizontally*/
+  text-align: center;
+}
+
     .fixed-header, .fixed-footer{
         width: 100%;
         position: fixed;        
@@ -174,4 +217,5 @@ aside {
     .container{
         width: 80%;
         margin: 0 auto; /* Center the DIV horizontally */
+		background:  rgba(0,0,0,.5); /* Sets to 50% transparent*/
     }
