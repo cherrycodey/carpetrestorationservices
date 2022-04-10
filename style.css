@@ -1,8 +1,16 @@
+/*
 body {
 	background: url('CarpetRestorationServices.png') no-repeat;
  	background-size: cover;
-	/*background-size:75%;*/
+	background-size:75%;
 }
+*/
+body{
+ background: url('CarpetRestorationServices.png');
+  background-size: cover;
+}
+  /* first image is 300x100, second image covers the whole area */
+
 /*Strip the ul of padding and list styling*/
 ul {
 	list-style-type:none;
@@ -140,8 +148,10 @@ input[type=checkbox]:checked ~ #menu{
   /*border: 3px solid #73AD21;*/
 }
 .group {
+	height: 150px;
   clear: both;
   *zoom: 1;
+text-align:center;
  /* border: 3px solid #73AD21;*/
 }
 section {
@@ -160,19 +170,25 @@ aside {
 
 
 body {
+	height: 100;
     margin:50px 0; 
     padding:1000;
     text-align:center;
 }
+.center {
+border: 5px solid #FFFF00;
+display: flex;
+justify-content: center;
+}
 
-#Content {
-    width:500px;
+/*.content {
+    width:5000px;
     margin:0 auto;
-    text-align:left;
+    text-align:center;
     padding:15px;
     border:1px dashed #333;
     background-color:#eee;
-}
+}*/
 /*
 body {
 max-width: max-content;
